@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.platformy_programistyczne"},{"l":"com.platformy_programistyczne.Frame"},{"l":"com.platformy_programistyczne.Model"}]
