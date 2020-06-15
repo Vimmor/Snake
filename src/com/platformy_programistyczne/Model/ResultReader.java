@@ -21,8 +21,8 @@ public class ResultReader {
         BufferedReader reader = new BufferedReader(new FileReader("src/Results/result.txt"));
         try {
             String line = reader.readLine();
-            var oneResult = line.split(" ");
             while (line != null) {
+                var oneResult = line.split(" ");
                 results.add(new Result(Integer.parseInt(oneResult[1]), oneResult[0]));
                 line = reader.readLine();
             }

@@ -9,8 +9,9 @@ import java.io.FileNotFoundException;
  * JFrame to display all results in two columns
  * player's name and result
  */
-public class ResultFrame extends JFrame{
+public class ResultFrame extends JFrame {
     private JTextArea resultTextAre;
+    private JPanel panel1;
 
     public ResultFrame() throws FileNotFoundException {
         super("Results Frame");
